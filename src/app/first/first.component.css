@@ -1,0 +1,152 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none ;
+    list-style: none;
+}
+li
+{
+    font-size: 1.4rem;
+    justify-content: space-around;
+}
+a.connect, a:hover
+{
+    background:#5fa9e2;
+    height: 48px;
+    top: 0px;
+}
+ a
+ {
+     color: white;
+     background-color: #0082e6;
+ }
+.header
+{
+    background-color:#0082e6;
+    color: white;
+    height: 48px;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul
+{
+    display: flex;
+    flex: 1 1 40rem;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}
+#logo
+{
+    flex: 1 1 40rem;  
+    align-items: center;
+}
+#contenu1
+{
+    font:Verdana, Geneva, sans-serif;
+    font-size:18px;
+    text-align:left;
+    height:50px;
+    vertical-align:middle;
+    line-height: 50px;
+    }
+#contenu2
+{
+    font:Verdana, Geneva, sans-serif;
+    font-size:18px;
+    text-align:right;
+    height:50px;
+    vertical-align: middle;
+    line-height: 50px;
+}   
+.fran
+{position: absolute;
+    top: 0%;
+    right: 10px;
+    height: 25px;
+}
+.crire
+{position: absolute;
+    top: 0%;
+    right: 175px;
+    height: 25px;
+}
+.connect
+{position: absolute;
+    top: 0px;
+    right: 325px;
+    height: 25px;
+}
+.off
+{position: absolute;
+    top: 0%;
+    right: 520px;
+    height: 25px;
+}
+.blanc
+{position: absolute;
+    top: 100px;
+    right: 400px;
+    width: 600px;
+    height: 625px;
+}
+.co
+{position:absolute;
+    top: 50px;
+    zoom: 250%;
+    left: 210px;
+}
+.mai
+{position:absolute ;
+    top: 85px;
+    zoom: 250%;
+    left: 175px;
+    background-color: #d6d0d0 ;
+}
+.pass
+{position:absolute ;
+    top: 125px;
+    zoom: 250%;
+    left: 175px;
+    background-color: #d6d0d0 ;
+}
+.sub
+{position:absolute ;
+    top: 165px;
+    zoom: 250%;
+    left: 215px;
+    background-color: #157DCD ;
+}
+.oubl
+{position:absolute ;
+    top: 320px;
+    zoom: 150%;
+    left: 355px;
+    color: #157DCD ;
+    background-color: white;
+    text-decoration-line: underline ;
+}
+.pas
+{position:absolute ;
+    top: 382.5px;
+    zoom: 150%;
+    left: 300px;
+}
+.insc
+{position:absolute ;
+    top: 282px;
+    zoom: 200%;
+    left: 340px;
+    background-color: #157DCD ;
+    border-style:solid;
+    color: black;
+}

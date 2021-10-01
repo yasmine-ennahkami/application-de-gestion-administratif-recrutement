@@ -7,8 +7,8 @@ import { SecondComponent } from './second/second.component';
 
 const routes: Routes = [
   { path: '', component: AppComponent},
-  { path: 'first-component', component: FirstComponent },
-  { path: 'second-component', component: SecondComponent },
+  // { path: 'first-component', component: FirstComponent },
+  // { path: 'second-component', component: SecondComponent },
 
 ];
 

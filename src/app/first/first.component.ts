@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject, OnInit } from '@angular/core';
+import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-first',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FirstComponent implements OnInit {
 
-  constructor() { }
+  constructor(@Inject(MAT_DIALOG_DATA) public data: any) {
+    console.log("data sent to firstCompoenent => ", data)
+  }
 
   ngOnInit(): void {
   }

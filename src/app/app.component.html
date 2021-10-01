@@ -3,14 +3,12 @@
         <h1 id="logo">RECRUTEMENT</h1>
         <ul>
             <li><a href="#">Voir les offres</a></li>
-            <li><a  routerLink="/first-component" routerLinkActive="active">Se connecter</a></li>
-            <li><a routerLink="/second-component" routerLinkActive="active" >S'inscrire</a></li>
+            <li><a (click)="login()">Se connecter</a></li>
+            <li><a (click)="signin()">S'inscrire</a></li>
             <li><a href="#">Français</a></li>
         </ul>
     </nav>
 </header>
-
-<router-outlet></router-outlet>
 
 <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD2plDVgEIX2wpSjLdzwgNz83htWc3xHAZew&usqp=CAU" width="750mm" height="400mm">
 
